@@ -9,13 +9,14 @@
 
 ##  :scroll:  Project Description
 
-This project aims to create a deep learning model to predict the umber of new cases in Malaysia.
-For this objective, a few variables were taken from patients.
-The data collected can be retrieved in the dataset folder in the repo.
+COVID-19 has affected all countries around the world, prompting the government to make changes to the laws every now and then to curb its infection.
+Other than advising the people for personal hygiene, one way for the government to control COVID infection is by regulating the movement of people inside or outside of the country. 
+Hence, this project aims to create a deep learning model to predict the number of new cases in Malaysia, to decide if a travel ban should be imposed.
 
-This model achieved a low error in predicting the number of new cases.
+The dataset can be obtained from the repository.
+Train dataset contains COVID19 data from 25/1/2020 to 4/12/2021.
+Test dataset contains COVID19 data from 5/12/2021 to 24/3/2022.
 There are a few missing data which was then interpolated to fill them. Polynomial interpolation was used as it is believed to be more accurate.
-MinMax Scaler was used to scale the data.
 
 Example of **missing** data:
 
